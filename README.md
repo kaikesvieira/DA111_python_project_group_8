@@ -15,7 +15,7 @@ Ensure you have Python installed on your machine. The project is built using Pyt
 
 
 ### Accessing the Website
-Open a web browser and go to `http://localhost:5000` to view the project website.
+After run the `create_database`, run the `app` file and then click on the link on your integrated terminal.
 
 ## Features
 
@@ -28,9 +28,6 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## Security Note
 If using an API, do not include your API Key in the repository. Use a `credentials.py` file and add it to `.gitignore`.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 For any questions or concerns about the project, please open an issue in the repository.
