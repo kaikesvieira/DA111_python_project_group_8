@@ -29,9 +29,6 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## Security Note
 If using an API, do not include your API Key in the repository. Use a `credentials.py` file and add it to `.gitignore`.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 For any questions or concerns about the project, please open an issue in the repository.
 
