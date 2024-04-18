@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Website</title>
-        
-    </head>
-    <body>
-        <h1>About</h1>
-        <p>The data of this project was legally obtained from the Open Data City of Windsor page.</p>
-        <p>See below the definition of each variable:</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>About - My Website</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">About</h1>
+        <p>This project uses data legally obtained from the Open Data City of Windsor page.</p>
+        <p>Below is the definition of each variable used in the dataset:</p>
         <ul>
-            <li>XCoord: Latitude. Type: Float </a></li>
-            <li>YCoord: Longitude. Type: Float</a></li>
-            <li>FID Sample: Sample identification number. Type: INT</a></li>
-            <li>Species: Specie of the tree. Type: TXT </a></li>
-            <li>DBH: Diameter at Breast Height (in centimeters). Type: Float </a></li>
+            <li><strong>XCoord:</strong> Latitude. <em>Type: Float</em></li>
+            <li><strong>YCoord:</strong> Longitude. <em>Type: Float</em></li>
+            <li><strong>FID Sample:</strong> Sample identification number. <em>Type: INT</em></li>
+            <li><strong>Species:</strong> Species of the tree. <em>Type: TXT</em></li>
+            <li><strong>DBH:</strong> Diameter at Breast Height (in centimeters). <em>Type: Float</em></li>
         </ul>
-    </body>
+        <footer class="footer mt-4 py-3 bg-light">
+            <div class="container">
+                <span class="text-muted">Data source: <a href="https://opendata.citywindsor.ca/details/238" target="_blank">Open Data City of Windsor</a>.</span>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
