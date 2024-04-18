@@ -15,7 +15,7 @@ Ensure you have Python installed on your machine. The project is built using Pyt
 
 
 ### Accessing the Website
-Open a web browser and go to `http://localhost:5000` to view the project website.
+After run the `create_database`, run the `app` file and click on the link on your integrated terminal
 
 ## Features
 
