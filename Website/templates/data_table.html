@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Data</title>
-        
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Data Table</title>
+</head>
+<body>
+    <div class="container mt-4">
         <h1>Windsor Trees in Right of Way</h1>
-    <body>
-        <table border="1">
-            <thead>
-                <tr>  <th>XCoord</th>  <th>YCoord</th>  <th>FID Sample</th>  <th>Species</th>  <th>DBH</th>  </tr>
+        <table class="table table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>XCoord</th>
+                    <th>YCoord</th>
+                    <th>FID Sample</th>
+                    <th>Species</th>
+                    <th>DBH Average</th>
+                    <!-- Add other column headers if necessary -->
+                </tr>
             </thead>
             <tbody>
                 {% for s in trees%}
