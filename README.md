@@ -15,7 +15,7 @@ Ensure you have Python installed on your machine. The project is built using Pyt
 
 
 ### Accessing the Website
-After run the `create_database`, run the `app` file and click on the link on your integrated terminal
+After run the `create_database`, run the `app` file and then click on the link on your integrated terminal.
 
 ## Features
 
